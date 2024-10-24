@@ -1,0 +1,70 @@
+react js:
+--------
+
+why react?
+- declarative programming (not an impaeative)
+(it will update automatically)
+--  component based architecture
+--single page application
+-- components we can reuse
+--react will use virtual dom for fast rendering
+
+created by facebook (open source)
+
+tools
+-----
+chrome
+vscode
+node-js/npm(node package maneger)
+
+type node js and download then install
+
+open terminal
+node -v
+npm -v
+
+
+create react application
+
+npx create-react-app project-name 
+cd project-name
+
+npm start
+
+
+*************************************************
+component should be return something
+component name will start with capital letter
+
+jsx:
+----
+javascript syntax or xml
+
+rules
+1. it shold be return a single element
+2. attributes in camel case (onClick, className)
+3. class is a keyword in js so cant use in jsx(className)
+4. javascript write in {}
+
+
+imports and exports
+
+first we need to exports
+1.named export 
+2. default export
+
+--------------------------------
+props:
+
+propperties
+
+props is read only cant edit or change
+
+proptypes:
+
+
+
+
+
+
+

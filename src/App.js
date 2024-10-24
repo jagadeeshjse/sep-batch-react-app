@@ -7,6 +7,12 @@ const App = () => {
   //     console.log('data');
   //   };
   //   handleData();
+
+  //   const add = (x,y)=>{
+  // console.log(x+y)
+  //   }
+
+  //   add(3,4)
   const name = 'jhon wick';
   return (
     <div>
