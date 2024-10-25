@@ -60,7 +60,23 @@ propperties
 
 props is read only cant edit or change
 
-proptypes:
+proptypes: 
+
+============================================
+
+Event handling
+
+react hooks
+
+Hook is nothing  but function
+
+useState();
+useEffect();
+
+
+//ternary operator
+
+condition ? true : false
 
 
 
