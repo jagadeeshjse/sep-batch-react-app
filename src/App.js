@@ -3,6 +3,7 @@ import HotelComp from './Hotel';
 import './app.css';
 import Counter from './Counter';
 import DisplayData from './DisplayData';
+import Form from './Form';
 
 const App = () => {
   // const handleData = () => {
@@ -27,8 +28,9 @@ const App = () => {
       </p>
       <button onClick={() => add(3, 4)}>submit</button>
       <HotelComp /> */}
-      {/* <Counter /> */}
-      <DisplayData />
+      <Counter />
+      {/* <DisplayData /> */}
+      {/* <Form /> */}
     </div>
   );
 };

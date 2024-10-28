@@ -78,6 +78,27 @@ useEffect();
 
 condition ? true : false
 
+in react we have side Effects
+
+data fetching,
+timeout,
+lifecycle methods
+
+useEfffect
+
+3 ways to write
+
+
+useEffect(callback function, dependency)
+
+1. without dependency
+first time coming and every time after page rendering
+2. with an empty dependency
+only first time page render 
+3. prop or state change
+
+first time will render and after you change the any prop or state
+
 
 
 
