@@ -4,6 +4,7 @@ import './app.css';
 import Counter from './Counter';
 import DisplayData from './DisplayData';
 import Form from './Form';
+import ShowPhotos from './ShowPhotos';
 
 const App = () => {
   // const handleData = () => {
@@ -16,7 +17,7 @@ const App = () => {
 
   // const name = 'jhon wick';
   return (
-    <div>
+    <div className="content">
       {/* <h1>heading data{name}</h1>
       {5 + 9}
       <p>
@@ -28,9 +29,10 @@ const App = () => {
       </p>
       <button onClick={() => add(3, 4)}>submit</button>
       <HotelComp /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <DisplayData /> */}
       {/* <Form /> */}
+      <ShowPhotos />
     </div>
   );
 };
