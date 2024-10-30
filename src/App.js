@@ -5,6 +5,7 @@ import Counter from './Counter';
 import DisplayData from './DisplayData';
 import Form from './Form';
 import ShowPhotos from './ShowPhotos';
+import MealComponent from './MealComponent';
 
 const App = () => {
   // const handleData = () => {
@@ -32,7 +33,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <DisplayData /> */}
       {/* <Form /> */}
-      <ShowPhotos />
+      {/* <ShowPhotos /> */}
+      <MealComponent />
     </div>
   );
 };
