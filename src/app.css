@@ -10,3 +10,12 @@
     width: 30%;
     padding: 10px;
 }
+
+.btn-nav{
+    padding: 10px 18px;
+    margin: 10px;
+    background: aqua;
+    border: none;
+    border-radius: 18px;
+    font-size: 22px;
+}

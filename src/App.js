@@ -6,6 +6,10 @@ import DisplayData from './DisplayData';
 import Form from './Form';
 import ShowPhotos from './ShowPhotos';
 import MealComponent from './MealComponent';
+import NavBar from './NavBar';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
 
 const App = () => {
   // const handleData = () => {
@@ -34,7 +38,20 @@ const App = () => {
       {/* <DisplayData /> */}
       {/* <Form /> */}
       {/* <ShowPhotos /> */}
-      <MealComponent />
+      {/* <MealComponent /> */}
+      <h1>My Application</h1>
+      <NavBar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/counter" element={<Counter />} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/display-data" element={<DisplayData />} />
+          <Route path="/meal-comp" element={<MealComponent />} />
+          <Route path="/show-photo" element={<ShowPhotos />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
     </div>
   );
 };
